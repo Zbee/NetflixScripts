@@ -1,7 +1,11 @@
 /* global jQuery */
 /* global netflix */
 /* global $ */
+
+//Designed to run in the javascript console
+
 //Does not currently support using two accounts
+//Will probably have to be an extension or tampermonkey snippet
 
 //Open page: https://netflix.com/browse/my-list - Netflix will normalize the URL
 
