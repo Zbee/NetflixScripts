@@ -57,7 +57,7 @@ list.forEach(function(e) {
           dataType: "json",
           contentType: "application/json",
           complete: function(res) {
-            console.log(res);
+            console.log(res.responseJSON.title + " was added to your new list");
           }
         });
       }
